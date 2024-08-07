@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    font-family: 'Inter';
+    background-color: #FFFBF5;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em;
+}
+
+.menu-open-btn, .menu-close-btn{
+    cursor: pointer;
+}
+
+.menu-close-btn{
+    margin-bottom: 1em;
+    right: 0;
+
+}
+
+
+.menu-closed{
+    display: none;
+}
+
+.menu{
+    background-color: white;
+    height: 100vh;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    a{
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+        font-weight: bold;
+        color: black;
+        text-decoration: none;
+        font-size: 1.3em;
+        &:hover{
+            font-weight: 900;
+            color: #FFA800;
+        }
+    }
+    li{
+        list-style: none;
+        
+    }
+    img{
+        top: 0;
+        right: 0;
+        padding: 1em;
+    }
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3em;
+    align-items: center;
+    h1{
+        padding-top: 2em;
+        text-align: center;
+        font-size: 2.2em;
+    }
+    p{
+        text-align: center;
+        padding-top: 1em;
+        font-size: 1.1em;
+    }
+    button{
+        margin-top: 1.5em;
+        font-weight: bold;
+        background-color: #FFA800;
+        padding: 1em 2em;
+        font-size: 1.2em;
+        border-radius: 2em;
+        border: none;
+        cursor: pointer;
+        &:hover{
+            font-weight: 900;
+        }
+    }
+
+}
+
+.cat-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    .cat-img{
+        width: 60%;
+        padding: 1em;
+    }
+    .outer-ring{
+        background-color: white;
+        width: 500px;
+        height: 500px;
+        z-index: -2;
+    }
+    .inner-ring{
+        background-color: blanchedalmond;
+        width: 400px;
+        height: 400px;
+        z-index: -1;
+        border-radius: 50%;
+        position: absolute;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
